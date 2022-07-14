@@ -5,8 +5,7 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
-
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="flex flex-col justify-between h-screen">
@@ -22,7 +21,5 @@ function App() {
         <Footer/>
       </div>
     </Router>
-  );
+  )
 }
-
-export default App;
